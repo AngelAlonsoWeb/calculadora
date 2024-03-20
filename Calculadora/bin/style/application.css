@@ -1,0 +1,39 @@
+.pane{
+	-fx-background-radius: 10px;
+}
+.pane, .textfield{
+	-fx-background-color: #010101;
+}
+.resultado{
+	-fx-border-color: blue;
+}
+
+.button{
+	-fx-background-color: #171717;
+	-fx-background-radius: 60px;
+	-fx-padding: 2px;
+}
+.button:hover, .button:pressed{
+	-fx-background-color: #444444;
+	-fx-font-size: 26px;
+}
+.botonCerrar:hover{
+	-fx-background-color: #f1372a;
+	-fx-font-size: 15px;
+}
+
+.pantalla{
+	-fx-padding: 0;
+	-fx-text-fill: #f8f8f8;
+}
+.resultado {
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: transparent transparent #171717 transparent;
+    -fx-border-width: 0 0 1px 0;
+    -fx-background-radius: 5px;
+}
+.igual{
+	-fx-background-color: #398628;
+	
+}
